@@ -1,7 +1,10 @@
-export function App() {
-  const [count, setCount] = useState(0)
+import {Button} from "@/components/ui/button";
 
-  return (
-    <h1>Hello World!</h1>
+export function App() {
+    return (
+        <div>
+          <h1>Hello World!</h1>
+          <Button>Click me</Button>
+        </div>
   )
 }
